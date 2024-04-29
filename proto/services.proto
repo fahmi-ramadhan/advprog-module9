@@ -4,7 +4,7 @@ package services;
 
 // Service for processing payments
 service PaymentService {
-    rpc ProcessPayment(PamentRequest) returns (PaymentResponse);
+    rpc ProcessPayment(PaymentRequest) returns (PaymentResponse);
 }
 
 // Service for checking transaction history
